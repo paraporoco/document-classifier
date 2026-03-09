@@ -1,0 +1,9 @@
+fastapi>=0.111
+uvicorn[standard]>=0.30
+scikit-learn>=1.4
+numpy>=1.26
+skl2onnx>=1.16
+onnx>=1.16
+# onnxruntime is only needed for the optional ONNX validation step in convert_artefacts.py
+# and for the optional server-side /classify endpoint (if ENABLE_SERVER_CLASSIFY=true)
+onnxruntime>=1.18
