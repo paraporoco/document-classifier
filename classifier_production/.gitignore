@@ -1,0 +1,19 @@
+# Build output
+dist/
+build/work/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# PyInstaller
+*.spec.bak
+
+# Runtime log output
+classification_log*.csv
+classification_log*.txt
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
